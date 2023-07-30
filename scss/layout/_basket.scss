@@ -100,3 +100,39 @@
  .basket-plus, .basket-minus{
    padding: 8px 13px;
  }
+.basket_order_itog{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  p{
+    padding-right: 10px;
+    font-size: 20px;
+  }
+}
+
+.btn-order{
+  text-decoration: none;
+  color:#F2F2F3;
+  background-color: #FF7020;
+  padding: 10px 30px;
+  border-radius:5px;
+  border:none;
+  cursor: pointer;
+  margin: 30px 0;
+}
+
+.basket_order{
+  margin-top: 5px;
+  border-top: 1px solid #707073;
+  
+
+} 
+
+.order_price{
+  font-weight: 700;
+  font-family: "Nunito";
+  padding-top: 5px;
+}
+.order_price::after{
+  content:"₽";  
+}
