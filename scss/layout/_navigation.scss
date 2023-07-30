@@ -1,0 +1,26 @@
+.nav-wrapper{
+   display: inline-block;
+   box-sizing: border-box;
+ }
+ 
+ .nav-slider{
+   overflow:hidden;
+   margin: 0 auto;
+ }
+ 
+ .nav__catalog{
+   transform: translateX(0px);
+   
+ }
+ nav{
+   width: 90%;
+ }
+ .nav__catalog__item-button {
+   padding: 9px 14px;
+   border: 1px solid #fff;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 16px;
+   border-radius: 25px;
+   min-width: 100px;
+ }

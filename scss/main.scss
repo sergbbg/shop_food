@@ -1,0 +1,20 @@
+@import 'absrtacts/_variable';
+@import 'absrtacts/_mixins';
+@import 'layout/_header';
+@import 'layout/_main-part';
+@import 'layout/_footer';
+@import 'layout/_navigation';
+@import 'layout/_basket';
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: $main_font;
+   height: 100%;
+   
+ }
+ .container{
+  max-width: 1210px;
+  margin: 0 auto;
+  height: 100%;
+}

@@ -1,0 +1,18 @@
+$main_font:  'Raleway', sans-serif;
+$main-color_white: #fff;;
+$main-color_gold: #FFC464;
+$main-color_black:#000;
+$color-violet:#96317D;
+
+$maxWidth:1400;
+
+$maxWidthContainer:1170;
+//адаптив
+$md1:786;
+$md2:375;
+
+
+%equal-heights {
+   display: flex;
+   flex-wrap: wrap;
+ }

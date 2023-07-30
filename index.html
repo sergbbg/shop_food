@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" type="text/css" href="normalize.css">
+   <link rel="stylesheet" type="text/css" href="main.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;800&family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,900;1,300&family=Nunito:wght@200;300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;800&family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,900;1,300&family=Nunito:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+   <title>Document</title>
+</head>
+<body>
+<header class="header header-mod">
+   <div class="header__context header__context-display ">
+      <div class="header__logo header__logo-width">
+         <img src="img/header-logo.png" alt="">
+      </div>
+      <div  class="header__text header__text-width">
+            <h3>YourMeal </h3>
+
+            <h1 class="header_text_font">Только самые <br><span>сочные бургеры! </span></h1>
+
+            <h4> Бесплатная доставка от 599₽</h4>
+      </div>
+   </div>
+</header>
+
+<main class="product">
+   <nav  class="nav-slider">    
+      <div class="nav-wrapper">  
+                                                                                        
+   <div class="nav__catalog" style="transform: translateX(0px)">
+      <div class= "first-list-nav nav__catalog__item nav__catalog__item-button tabheader__item_active" >
+         <img src="icon/free-icon-cheeseburger-2362255.png" alt="cheeseburg"> Бургеры
+      </div>
+      <div class="nav__catalog__item nav__catalog__item-button">
+         <img src="icon/free-icon-onion-2362361.png" alt="cheeseburg"> Закуски
+      </div>
+      <div class="nav__catalog__item nav__catalog__item-button">
+         <img src="icon/free-icon-hotdog-sandwich-2362313.png" alt="cheeseburg"> Хот-доги
+      </div>
+      <div class="nav__catalog__item nav__catalog__item-button">
+         <img src="icon/free-icon-burrito-2362225.png" alt="cheeseburg"> Шаурма
+      </div>
+
+      <div class="nav__catalog__item nav__catalog__item-button">
+         <img src="icon/free-icon-pizza-2362372.png" alt="cheeseburg"> Пицца
+      </div>
+      <div class="nav__catalog__item nav__catalog__item-button">
+         <img src="icon/free-icon-fast-food-2362274.png" alt="cheeseburg"> Комбо
+      </div>
+      <div class="nav__catalog__item nav__catalog__item-button">
+         <img src="icon/free-icon-noodles-2362350.png" alt="cheeseburg">Вок
+      </div>
+      
+      <div class="nav__catalog__item nav__catalog__item-button">
+         <img src="icon/free-icon-doughnut-2362260.png" alt="cheeseburg"> Десерты
+      </div>
+      <div class=" nav__catalog__item nav__catalog__item-button">
+         <img src="icon/free-icon-ketchup-2362341.png" alt="cheeseburg"> Соусы
+      </div>
+  </div>
+</div> 
+</nav>
+   <section class="main__content">
+      <div class="basket">
+            <div class="basket-widnow">
+               <div class="basket-header"> <h2>Корзина</h2></div>
+               <div class="cart-wrapper">
+                  <div class="basket-empty">
+                     <p>Пока здесь пусто</p>
+                  </div>
+               </div>
+            </div>
+      </div>
+
+      <div class="menu">
+         <div class="menu-width" >  
+         <div class="menu_burger menu-osnova">  
+            <h2>Бургер</h2>
+         <div class="menu_product">  
+               
+            <div class="menu-item" data-id = "1">
+               <img class="product-img" src="img/photo.png" alt="#" > 
+               <h3 class="price">689₽</h3>
+               <p class="item-title"> Мясная бомба </p>
+               <p class="item-weight">520г</p>
+             
+                  <!-- <div class=" counter-wrapper">
+                     <div class="counter_menu">  
+                     <div class="items__control" data-action="minus">-</div>
+                     <div class="items__current" data-counter="">1</div>
+                     <div class="items__control" data-action="plus">+</div>
+                     </div>
+                  </div> -->
+               <button  data-cart class="btn-backet"> Добавить </button>
+         </div>
+
+         <div class="menu-item" data-id = "2">
+            <img src="img/superChease.png" alt="#" class="product-img"> 
+            <h3 class="price">550₽</h3>
+            <p class="item-title">Супер сырный</p>
+            <p class="item-weight">512г</p>
+          
+               <!-- <div class=" counter-wrapper">
+                  <div class="counter_menu">  
+                  <div class="items__control" data-action="minus">-</div>
+                  <div class="items__current" data-counter="">1</div>
+                  <div class="items__control" data-action="plus">+</div>
+                  </div>
+               </div> -->
+            <button  data-cart class="btn-backet"> Добавить </button>
+      </div>
+
+      <div class="menu-item" data-id = "3">
+         <img src="img/Chease.png" alt="#" class="product-img"> 
+         <h3 class="price">639₽</h3>
+         <p class="item-title">Сытный</p>
+         <p class="item-weight">580г</p>
+       
+            <!-- <div class=" counter-wrapper">
+               <div class="counter_menu">  
+               <div class="items__control" data-action="minus">-</div>
+               <div class="items__current" data-counter="">1</div>
+               <div class="items__control" data-action="plus">+</div>
+               </div>
+            </div> -->
+         <button  data-cart class="btn-backet"> Добавить </button>
+   </div>
+         
+   <div class="menu-item" data-id = "4">
+      <img src="img/hit.png" alt="#" class="product-img"> 
+      <h3 class="price">480₽</h3>
+      <p class="item-title">Тяжелый удар</p>
+      <p class="item-weight">470г</p>
+    
+         <!-- <div class=" counter-wrapper">
+            <div class="counter_menu">  
+            <div class="items__control" data-action="minus">-</div>
+            <div class="items__current" data-counter="">1</div>
+            <div class="items__control" data-action="plus">+</div>
+            </div>
+         </div> -->
+      <button  data-cart class="btn-backet"> Добавить </button>
+</div>
+
+<div class="menu-item" data-id = "5">
+   <img src="img/Classik.png" alt="#" class="product-img"> 
+   <h3 class="price">450₽</h3>
+   <p class="item-title">Вечная классика</p>
+   <p class="item-weight">450г</p>
+ 
+      <!-- <div class=" counter-wrapper">
+         <div class="counter_menu">  
+         <div class="items__control" data-action="minus">-</div>
+         <div class="items__current" data-counter="">1</div>
+         <div class="items__control" data-action="plus">+</div>
+         </div>
+      </div> -->
+   <button  data-cart class="btn-backet"> Добавить </button>
+</div>
+
+<div class="menu-item" data-id = "6">
+   <img src="img/italic.png" alt="#" class="product-img"> 
+   <h3 class="price">560₽</h3>
+   <p class="item-title">Итальянский</p>
+   <p class="item-weight">510г</p>
+ 
+      <!-- <div class=" counter-wrapper">
+         <div class="counter_menu">  
+         <div class="items__control" data-action="minus">-</div>
+         <div class="items__current" data-counter="">1</div>
+         <div class="items__control" data-action="plus">+</div>
+         </div>
+      </div> -->
+   <button  data-cart class="btn-backet"> Добавить </button>
+      </div>
+   </div>
+       </div>
+
+
+
+         <div class="menu-snacks menu-osnova">
+            <h2>Закуски</h2>
+         <div class="menu_product">   
+            <div class="menu-item" data-id = "7">
+               <img src="img/nashoc.png" alt="#" class="product-img"> 
+               <h3 class="price">250₽</h3>
+               <p class="item-title">Начос</p>
+               <p class="item-weight">220г</p>
+             
+                  <!-- <div class=" counter-wrapper">
+                     <div class="counter_menu">  
+                     <div class="items__control" data-action="minus">-</div>
+                     <div class="items__current" data-counter="">1</div>
+                     <div class="items__control" data-action="plus">+</div>
+                     </div>
+                  </div> -->
+               <button  data-cart class="btn-backet"> Добавить </button>
+            </div>
+
+         <div class="menu-item" data-id = "8">
+               <img src="img/potate.png" alt="#" class="product-img"> 
+               <h3 class="price">245₽</h3>
+               <p class="item-title">Картошка фри </p>
+               <p class="item-weight">180г</p>
+             
+                  <!-- <div class=" counter-wrapper">
+                     <div class="counter_menu">  
+                     <div class="items__control" data-action="minus">-</div>
+                     <div class="items__current" data-counter="">1</div>
+                     <div class="items__control" data-action="plus">+</div>
+                     </div>
+                  </div> -->
+               <button  data-cart class="btn-backet"> Добавить </button>
+            </div>
+
+            <div class="menu-item" data-id = "9">
+               <img src="img/onion.png" alt="#" class="product-img"> 
+               <h3 class="price">230</h3>
+               <p class="item-title">луковые кольцы</p>
+               <p class="item-weight">160г</p>
+             
+                  <!-- <div class=" counter-wrapper">
+                     <div class="counter_menu">  
+                     <div class="items__control" data-action="minus">-</div>
+                     <div class="items__current" data-counter="">1</div>
+                     <div class="items__control" data-action="plus">+</div>
+                     </div>
+                  </div> -->
+               <button  data-cart class="btn-backet"> Добавить </button>
+            </div>
+
+
+
+         </div>
+      </div>
+
+      <div class="menu-HotDog menu-osnova">
+         <h2>Хот-доги</h2>
+      <div class="menu_product">   
+         <div class="menu-item" data-id = "10">
+            <img src="img/HotDog.png" alt="#" class="product-img"> 
+            <h3 class="price">290₽</h3>
+            <p class="item-title">Домашний хот-дог</p>
+            <p class="item-weight">250г</p>
+          
+               <!-- <div class=" counter-wrapper">
+                  <div class="counter_menu">  
+                  <div class="items__control" data-action="minus">-</div>
+                  <div class="items__current" data-counter="">1</div>
+                  <div class="items__control" data-action="plus">+</div>
+                  </div>
+               </div> -->
+            <button  data-cart class="btn-backet"> Добавить </button>
+         </div>
+
+      <div class="menu-item" data-id = "11">
+            <img src="img/pepersHOT.png" alt="#" class="product-img"> 
+            <h3 class="price">239 ₽</h3>
+            <p class="item-title">Жгучий хот-дог</p>
+            <p class="item-weight">240г</p>
+          
+               <!-- <div class=" counter-wrapper">
+                  <div class="counter_menu">  
+                  <div class="items__control" data-action="minus">-</div>
+                  <div class="items__current" data-counter="">1</div>
+                  <div class="items__control" data-action="plus">+</div>
+                  </div>
+               </div> -->
+            <button  data-cart class="btn-backet"> Добавить </button>
+         </div>
+
+         <div class="menu-item" data-id = "12">
+            <img src="img/clasicHot.png" alt="#" class="product-img"> 
+            <h3 class="price">230</h3>
+            <p class="item-title">луковые кольцы</p>
+            <p class="item-weight">160г</p>
+          
+               <!-- <div class=" counter-wrapper">
+                  <div class="counter_menu">  
+                  <div class="items__control" data-action="minus">-</div>
+                  <div class="items__current" data-counter="">1</div>
+                  <div class="items__control" data-action="plus">+</div>
+                  </div>
+               </div> -->
+            <button  data-cart class="btn-backet"> Добавить </button>
+         </div>
+
+
+
+      </div>
+   </div>
+</div>
+      </div>
+   </section>
+
+</main>
+
+<footer >
+   <div class="container "> 
+      <div class="footer">  
+   <div class="logo_footer">
+      <img src="icon/logo_footer.png" alt="">
+   </div>
+   <div class="tel_footer footer_informBox">
+      <p>Номер для заказа</p>
+     <p class="tel">+7(930)833-38-11</p> 
+   </div>
+   <div class="soc_footer footer_informBox">
+      <p> Мы в соцсетях </p>
+      <a href=""> <img src="icon/tg.png" alt=""></a>
+      <a href=""> <img src="icon/vk.png" alt=""></a>
+   </div>
+   <div class="text-footer">
+      <p>© YouMeal, 2022</p>
+      <p>Design: Anastasia Ilina</p>
+  </div> 
+</div>
+</div>
+</footer>
+
+
+<script src="js/script.js"></script>
+<script src="js/counter.js"></script>
+</body>
+</html>
